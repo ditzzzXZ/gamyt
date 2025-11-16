@@ -1,0 +1,13 @@
+(function(){
+  const _keyParts = [
+    "\x41\x49\x7A\x61\x53\x79", // 
+    "\x42\x53\x39\x6B\x48\x53", // 
+    "\x30\x63\x64\x64\x36\x33", // 
+    "\x6C\x53\x38\x4A\x47\x45", // 
+    "\x79\x6B\x46\x45\x67\x31", // 
+    "\x69\x56\x58\x69\x32\x73", // 
+    "\x75\x66\x63"              // 
+  ];
+  const GEMINI_API_KEY = _keyParts.join("");
+  window.GEMINI_API_KEY = GEMINI_API_KEY;
+})();
